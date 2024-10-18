@@ -12,6 +12,9 @@
     "react-native-web": "*"
   },
   "scripts": {
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/profile"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/profile",
+    "expo-start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   }
 }

@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import Svg, { G, Path } from 'react-native-svg';
 
-export const App = () => {
+export const ProfileApp = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
   const scrollViewRef = useRef<null | ScrollView>(null);
 
@@ -738,4 +738,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default ProfileApp;
